@@ -1,0 +1,51 @@
+body{background-color: white;
+text-align: center;
+margin: 0;
+}
+.menu{position: fixed;
+background-color: blue;
+width: 100;
+margin-top: 0px;
+}
+
+.links{display: inline;
+font-size: 25px;
+padding-left: 30px;
+padding: 30px;
+}
+
+a{color: aquamarine;
+text-decoration: none;
+text-shadow: 2px 2px 2px red;
+}
+
+/* pseudoclass-selector: pseudoclass (property value) */
+a:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.profile{
+    margin-top: 100px;
+}
+#name{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+}
+#welcome{
+    background: linear-gradient(to right,blue,red(30,212,61) );
+}
+.line{
+    height: 6px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+}
+.contact_1 a{
+     
+}
